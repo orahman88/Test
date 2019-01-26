@@ -6,3 +6,11 @@ Given User navigate to Create Account Page
 When User Click on My Account 
 Then User Click on Create Account 
 Then User Fill Up All the Information 
+
+
+@SMOKE
+Scenario: Sign IN
+Given User navigate to Create Account Page
+When User Click on My Account 
+Then User Click on Create Account 
+Then User Fill Up All the Information 
