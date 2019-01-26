@@ -1,0 +1,15 @@
+$ mvn clean install
+$ mvn -Dtest=RunnerTest test
+$ mvn test -Dcucumber.options="--tags @smoke1"
+mvn test -Dcucumber.options='--tags "@smoke and @fast"'
+
+$mvn clean test -Dcucumber.options="src/test/resources/features" --tags @SMOKE
+$mvn clean test -Dcucumber.options= --tags @SMOKE
+
+mvn clean test -Dcucumber.options="–t @SMOKE"
+
+
+mvn test -Dcucumber.options=”src/test/resources/functionalTests/End2End_Tests.feature” -Dcucumber.options=”–tags @Smoke”
+
+
+mvn test -Dcucumber.options="--tags @SMOKE"
