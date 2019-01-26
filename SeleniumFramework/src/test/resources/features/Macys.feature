@@ -1,6 +1,6 @@
 Feature: User should be able to create a profile
 
-@SMOKE
+@SMOKE @SMOKE1
 Scenario: Create A Profile
 Given User navigate to Create Account Page
 When User Click on My Account 
